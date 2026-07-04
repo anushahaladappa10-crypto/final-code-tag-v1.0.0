@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Todo | Travel Explorer Hub</title>
+<meta name="description" content="Travel Explorer Hub helps users explore destinations, check weather, and manage travel plans with an interactive travel checklist.">
+
+<meta name="keywords" content="Travel, Tourism, Weather App, Todo List, HTML, CSS, JavaScript, Travel Explorer">
+
+<meta name="author" content="Anusha Haladappa">
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        Travel Explorer<span>.</span>
+    </div>
+
+    <div class="menu-toggle" id="menuToggle">
+        ☰
+    </div>
+
+    <nav id="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="weather.html">Weather</a>
+        <a href="todo.html">Todo</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <button id="themeBtn">🌙</button>
+
+</header>
+
+<section class="container">
+
+    <h1 class="section-title">📝 Todo App</h1>
+
+    <div class="contact-box">
+<input
+type="text"
+id="taskInput"
+placeholder="Enter a task"
+aria-label="Enter a new travel task">
+        
+
+<button
+class="btn"
+id="addTaskBtn"
+aria-label="Add Task">
+            Add Task
+        </button>
+
+    </div>
+
+    <div class="todo-filters">
+
+    <button class="btn" id="allTasks">All</button>
+
+    <button class="btn" id="activeTasks">Active</button>
+
+    <button class="btn" id="completedTasks">Completed</button>
+
+</div>
+
+<ul id="taskList"></ul>
+
+</section>
+
+<footer>
+
+🌍 Travel Explorer Hub
+
+<br><br>
+
+Explore • Dream • Discover
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
